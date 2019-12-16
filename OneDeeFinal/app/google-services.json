@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "403947860482",
+    "firebase_url": "https://oned-50001.firebaseio.com",
+    "project_id": "oned-50001",
+    "storage_bucket": "oned-50001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403947860482:android:05212e3a40d172f888ed1b",
+        "android_client_info": {
+          "package_name": "com.example.onedee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403947860482-vjsnakvvggbji6cdaniogfmknimq6qaa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onedee",
+            "certificate_hash": "bb447aa3e2c5ec63d40c52089a009ab2c23fbfcb"
+          }
+        },
+        {
+          "client_id": "403947860482-sm9bg5un24uf7tla4glc04hnp5rpe81h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxSn47QlO5Qxu8Sp0PfXRygNtJ0Aoxbb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403947860482-sm9bg5un24uf7tla4glc04hnp5rpe81h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

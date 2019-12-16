@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6fff8">
+
+<!-- HI CORN! FOR ANY TEXT JUST FOLLOW THIS MARGIN, TEXTSTYLE AND TEXTSIZE LOL -->
+    <TextView
+        android:id="@+id/delete_grp_meeting_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_gap"
+        android:text="Meeting Settings Page"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/default_gap"
+        android:gravity="center">
+        <Button
+            android:id="@+id/group_delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            />
+        <Button
+            android:id="@+id/group_cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            />
+        <Button
+            android:id="@+id/meetingbtnoptimise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Optimise"
+            />
+    </TableRow>
+
+</LinearLayout>

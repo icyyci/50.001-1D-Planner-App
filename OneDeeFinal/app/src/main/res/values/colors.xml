@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="transl_black">#33000000</color>
+    <color name="tr_red">#33b7293e</color>
+    <color name="tr_yellow">#33ffcc00</color>
+    <color name="tr_green">#33008577</color>
+    <color name="tr_blue">#331f7ecc</color>
+    <color name="tr_purple">#33661aff</color>
+
+</resources>

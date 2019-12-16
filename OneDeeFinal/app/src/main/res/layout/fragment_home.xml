@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- GRID FOR HEADERS -->
+    <TableLayout
+        android:id="@+id/headersGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp">
+
+        <!-- ========= first row ========= -->
+        <TableRow
+            android:id="@+id/monthRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
+
+            <Button
+                android:id="@+id/prev_week"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.13"
+                android:drawableLeft="@drawable/ic_prev_button" />
+
+            <TextView
+                android:id="@+id/monthYear"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.74"
+                android:gravity="center"
+                android:text="@string/month_year"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next_week"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.13"
+                android:drawableRight="@drawable/ic_next_button" />
+
+        </TableRow>
+
+        <!-- ========= second row ========= -->
+        <TableRow
+            android:id="@+id/daysRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_gap"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="@dimen/default_gap">
+
+            <!-- DAYS -->
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="0.16667"
+                android:background="@color/Transparent"
+                android:gravity="center"
+                android:text="Time"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/day1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="0.16667"
+                android:background="@color/tr_red"
+                android:gravity="center"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/day2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="0.16667"
+                android:background="@color/tr_yellow"
+                android:gravity="center"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/day3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="0.16667"
+                android:background="@color/tr_green"
+                android:gravity="center"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/day4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="0.16667"
+                android:background="@color/tr_blue"
+                android:gravity="center"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/day5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="0.16667"
+                android:background="@color/tr_purple"
+                android:gravity="center"
+
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <!-- FOR SCHEDULE -->
+        <ListView
+            android:id="@+id/schedule_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/default_gap"
+            android:layout_marginLeft="@dimen/default_gap"
+            android:layout_marginBottom="80dp"/>
+
+    </TableLayout>
+
+    <!-- THIS IS THE SMALL + BUTTON TO ADD EVENTS -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/newEventButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_new"
+        android:tint="@color/black"
+        app:backgroundTint="#e6fff8"
+        app:borderWidth="2dp"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
